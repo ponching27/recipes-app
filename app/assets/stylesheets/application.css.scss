@@ -13,6 +13,7 @@
  *= require_tree .
  *= require_self
  */
+
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
@@ -47,7 +48,7 @@ body {
 	@include box-shadow;
 	border: none;
 	.navbar-brand {
-		font-family: century gothic;
+		font-family: Brush Script MT;
 		text-transform: uppercase;
 		letter-spacing: -1px;
 		font-weight: bold;
@@ -79,7 +80,7 @@ body {
 		}
 	}
 	h2 {
-		font-family: arial;
+		font-family: papyrus;
 		text-align: center;
 		padding: 15px 5%;
 		margin: 0;
@@ -147,4 +148,35 @@ body {
 }
 .add-button {
 	margin-top: 25px;
+}
+
+/* footer */
+
+footer {
+  margin-top: 45px;
+  padding-top: 5px;
+  border-top: 1px solid #eaeaea;
+  color: #777;
+}
+
+footer a {
+  color: #555;
+}
+
+footer a:hover {
+  color: #222;
+}
+
+footer small {
+  float: left;
+}
+
+footer ul {
+  float: right;
+  list-style: none;
+}
+
+footer ul li {
+  float: left;
+  margin-left: 15px;
 }

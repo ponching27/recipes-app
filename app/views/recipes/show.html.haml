@@ -10,6 +10,8 @@
 					%p
 						Submitted by:
 						= @recipe.user.email
+					#share
+						= social_share_button_tag(@recipe.title)
 
 		.row
 			.col-md-6

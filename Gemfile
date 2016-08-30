@@ -14,6 +14,8 @@ gem 'simple_form', '~> 3.2', '>= 3.2.1'
 gem 'paperclip', '~> 5.1'
 gem 'cocoon', '~> 1.2', '>= 1.2.9'
 gem 'devise', '~> 4.2'
+gem 'gmaps4rails', '~> 2.1', '>= 2.1.2'
+gem 'social-share-button', '~> 0.3.4'
 
 group :development, :test do
   gem 'sqlite3', '1.3.11'

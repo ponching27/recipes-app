@@ -196,7 +196,7 @@ footer li:hover {
 .jumbotron {
 	background-image: asset-url('word.jpg');
 	background-size: center;
-	height: 550px;
+	height: 650px;
 }
 
 .jumbotron h1 {
@@ -211,6 +211,7 @@ footer li:hover {
 .btn-lg {
 	font-size: 1.7em;
 	background-color: black;
+	margin-top: 170px
 }
 
 .btn-md {
@@ -232,29 +233,6 @@ footer li:hover {
 		padding-left: 		30px;
 		padding-right: 		30px;
 		text-align: justify;
-	}
-
-
-#contact {
-	background: white;
-	min-height: 650px;
-}
-
-#info {
-	background: white;
-	min-height: 650px;
-}
-
-#info h4 {
-	text-align: center;
-	padding-top: 30px;
-	color: #991f00;
-}
-
-#info p {
-	text-align: center;
-	padding-top: 5px;
-	color: #991f00;
 }
 
 $size: 24px;
